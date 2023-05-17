@@ -1,0 +1,12 @@
+.links {
+    text-decoration: solid !important;
+    color: var(--grey);
+}
+
+.links:hover {
+    color: var(--lightBlue)!important;
+}
+
+.links:visited {
+    color: var(--grey);
+}

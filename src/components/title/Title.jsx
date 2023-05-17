@@ -1,9 +1,18 @@
-import s from './title.module.css'
-export default function Title() {
+import s from "./title.module.css";
+import { PropTypes } from "prop-types";
+
+export default function Title({ title, subtitle }) {
   return (
-    <div className={s.center}>
-        <h1>Chasing Waterfalls</h1>
-        <h3 className="subheading">Waterfalls I have visited during my travels</h3>
+    <div className={s.text}>
+      <a href="/" className={s.color}>
+        <h1>{title}</h1>
+      </a>
+      <h3 className="subheading">{subtitle}</h3>
     </div>
-  )
+  );
 }
+
+Title.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+};

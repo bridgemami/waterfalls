@@ -1,3 +1,8 @@
-.center {
+.text {
     text-align: center;
+}
+.color {
+    color: var(--lightBlue)!important;
+    text-decoration: none !important;
+
 }
