@@ -1,0 +1,15 @@
+.picture {
+    width: 40vw;
+
+}
+.item {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+
+.intro {
+    text-align: left;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,85 @@
+/* Color Theme Swatches in Hex */
+/* .Skogafoss-waterfall-long-exposure--1-hex { color: #A8B0BF; }
+.Skogafoss-waterfall-long-exposure--2-hex { color: #99D0F2; }
+.Skogafoss-waterfall-long-exposure--3-hex { color: #274001; }
+.Skogafoss-waterfall-long-exposure--4-hex { color: #172601; }
+.Skogafoss-waterfall-long-exposure--5-hex { color: #8BA651; } */
+
+:root {
+  --grey: #A8B0BF;
+  --lightBlue: #99D0F2;
+  --darkGreen: #274001;
+  --black: #172601;
+  --paleGreen: #8BA651;
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--darkGreen);
+  color: var(--lightBlue);
+
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
